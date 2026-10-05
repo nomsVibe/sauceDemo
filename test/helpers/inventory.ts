@@ -23,7 +23,6 @@ export class navBarPage {
     readonly allItemsButton: Locator;
 
     constructor(page: Page) {
-        // this.openMenuButton = page.locator('[data-test="open-menu"]');
         this.openMenuButton = page.getByRole('button', { name: 'Open Menu' });
         this.allItemsButton = page.locator('[data-test="inventory-sidebar-link"]');
     }
