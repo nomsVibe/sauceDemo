@@ -1,0 +1,9 @@
+{
+  "name": "sauce-demo",
+  "dependencies": {
+    "saucelabs": "^9.2.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  }
+}
