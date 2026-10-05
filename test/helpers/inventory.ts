@@ -28,18 +28,3 @@ export class navBarPage {
         this.allItemsButton = page.locator('[data-test="inventory-sidebar-link"]');
     }
 }
-
-
-
-
-
-//  await page.locator('[data-test="add-to-cart-sauce-labs-backpack"]').click();
-//   await page.locator('[data-test="add-to-cart-sauce-labs-bike-light"]').click();
-//   await page.locator('[data-test="add-to-cart-sauce-labs-bolt-t-shirt"]').click();
-//   await page.locator('[data-test="shopping-cart-link"]').click();
-//   await page.getByRole('button', { name: 'Open Menu' }).click();
-//   await page.locator('[data-test="inventory-sidebar-link"]').click();
-//   await page.locator('[data-test="remove-sauce-labs-bike-light"]').click();
-//   await page.locator('[data-test="shopping-cart-link"]').click();
-//   await page.locator('[data-test="continue-shopping"]').click();
-// });
