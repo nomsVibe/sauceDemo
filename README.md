@@ -46,6 +46,11 @@ sauceDemo/
 ```bash
 npm install
 ```
+3. Install the Chromium browser used by the Playwright project:
+
+```bash
+npx playwright install chromium
+```
 
 ## Run the Tests
 
